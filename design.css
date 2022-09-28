@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff38;
+    font-family: Galvji;
+}
+
+nav{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.161);
+    width: 100%;
+}
+
+
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    height: 10vh;
+    display: flex;
+    align-items:flex-end;
+
+}
+
+nav ul li{
+    color: white;
+    margin-left: 5%;
+    padding-bottom: 2vh;
+    font-size: larger;
+    font-size: 17px;
+}
+
+
+.sec_one{
+    height: 90vh;
+    background-image: url(Background.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sec_one .top, .sec_one .bottom{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.sec_one .top div{
+    margin-left: 5%;
+    font-size: 40px;
+    text-align: right;
+    width: 30%;
+    color: white;
+    margin-top: 4%;;
+}
+
+.sec_one .top div .inspiring{
+    font-style: normal;
+    font-size: 50px;
+}
+
+.sec_one .top div .Growing{
+    color: #486070;
+    font-size: 60px;
+}
+
+.sec_one .top div .Growing:hover{
+    text-decoration: underline;
+}
+
+
+
+.sec_one .bottom div{
+    margin-left: 60%;
+    font-size: 50px;
+    text-align: right;
+    width: 20%;
+    color: #2F3C7E;
+}
+
+.sec_two{
+    background-color: #2F3C7E;
+    height: 40vh;
+    width: 100%;
+}
